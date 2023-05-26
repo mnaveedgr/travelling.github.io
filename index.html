@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+       <!-- font awesome cdn link  -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body style="overflow: hidden;">
+    <!-- header start -->
+    <section class="home">
+        <header class="header" id="header" data-aos="fade-down">
+            <a href="index.html" class="logo">travia.</a>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="tour.html">tours</a></li>
+                    <li><a href="destination.html">destinations</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+            <div id="menu"><i class="fa fa-bars"></i></div>
+        </header>
+        <section class="home-child">
+            <form action="" data-aos="zoom-in">
+                <h2>share your tour</h2>
+                <p>where to</p>
+                <input type="text" placeholder="enter your location" class="box" required><br>
+                <p>when to</p>
+                <input type="date" placeholder="mm/dd/yyyy" class="box" required><br>
+                <p>how many</p>
+                <input type="number" placeholder="number of guest" min="1" max="10" class="box" required><br><br>
+                <input type="submit" value="Search tour">
+            </form>
+        </section>
+    </section>
+    <!-- header end -->
+    <!-- java scrip link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="travel.js"></script>
+</body>
+
+</html>
